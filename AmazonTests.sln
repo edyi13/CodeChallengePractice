@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestSubSegment", "ShortestSubSegment\ShortestSubSegment.csproj", "{479A6FA0-C14B-4515-8866-17838AE37F33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShortestSubSegment", "ShortestSubSegment\ShortestSubSegment.csproj", "{479A6FA0-C14B-4515-8866-17838AE37F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csproj", "{C5829B42-4B4F-448E-B7E5-303B050DC7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximunSubArray", "MaximunSubArray\MaximunSubArray.csproj", "{AB835C42-1409-4F21-9F77-4B24C68A66FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{479A6FA0-C14B-4515-8866-17838AE37F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{479A6FA0-C14B-4515-8866-17838AE37F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{479A6FA0-C14B-4515-8866-17838AE37F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5829B42-4B4F-448E-B7E5-303B050DC7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5829B42-4B4F-448E-B7E5-303B050DC7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5829B42-4B4F-448E-B7E5-303B050DC7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5829B42-4B4F-448E-B7E5-303B050DC7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB835C42-1409-4F21-9F77-4B24C68A66FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB835C42-1409-4F21-9F77-4B24C68A66FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB835C42-1409-4F21-9F77-4B24C68A66FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB835C42-1409-4F21-9F77-4B24C68A66FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
