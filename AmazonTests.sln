@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwoSum", "TwoSum\TwoSum.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximunSubArray", "MaximunSubArray\MaximunSubArray.csproj", "{AB835C42-1409-4F21-9F77-4B24C68A66FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoveZeros", "MoveZeros\MoveZeros.csproj", "{D900EE7D-5A13-46E4-86A4-68D6EBB0066E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AB835C42-1409-4F21-9F77-4B24C68A66FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB835C42-1409-4F21-9F77-4B24C68A66FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB835C42-1409-4F21-9F77-4B24C68A66FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D900EE7D-5A13-46E4-86A4-68D6EBB0066E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D900EE7D-5A13-46E4-86A4-68D6EBB0066E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D900EE7D-5A13-46E4-86A4-68D6EBB0066E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D900EE7D-5A13-46E4-86A4-68D6EBB0066E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
