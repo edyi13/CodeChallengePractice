@@ -1,19 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.Json;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace CustomLinkedList
 {
-    public class CustomLinkedList
+    internal class CustomDoubleLinkedList
     {
-
         public Node head;
-        public Node tail;
+        public Node tail;        public Node prev;
         public int length;
 
-        public CustomLinkedList(object value)
+        public CustomDoubleLinkedList(object value)
         {
             head = new Node(value);
 
@@ -24,6 +23,7 @@ namespace CustomLinkedList
         public void Append(object value)
         {
             var newNode = new Node(value);
+            newNode.prev = tail;
             tail.next = newNode;
             tail = newNode;
             length++;
@@ -33,6 +33,7 @@ namespace CustomLinkedList
         {
             var newNode = new Node(value);
             newNode.next = head;
+            head.prev = newNode;
             head = newNode;
             length++;
         }
@@ -61,10 +62,12 @@ namespace CustomLinkedList
                 return GetList();
             }
             var newNode = new Node(value);
-            var leaderNode = TraverseToIndex(index-1);
-            var holdingPointer = leaderNode.next;
+            Node leaderNode = TraverseToIndex(index-1);
+            Node follower = (Node)leaderNode.next;
             leaderNode.next = newNode;
-            newNode.next = holdingPointer;
+            newNode.prev = leaderNode;
+            newNode.next = follower;
+            follower.prev = newNode;
             length++;
             return GetList();
         }
@@ -85,34 +88,11 @@ namespace CustomLinkedList
             }
             Node prevNode = TraverseToIndex(index-1);
             Node nextNode = (Node)prevNode.next;
+            nextNode.prev = prevNode;
             prevNode.next = nextNode.next;
             length--;
             return GetList();
         }
-
-        public object[] Reverse()
-        {
-            if (head.next == null)
-            {
-                return GetList();
-            }
-            tail = head;
-            //Console.WriteLine("tail");
-            //Console.WriteLine(JsonSerializer.Serialize(tail));
-            Node first = head;
-            Node second = (Node)first.next;
-            while (second != null)
-            {
-                Node temp = (Node)second.next;
-                second.next = first;
-                first = second;
-                second = temp;
-            }
-            head.next = null;
-            head = first;
-            return GetList();
-        }
-
 
         public Node TraverseToIndex(int index)
         {

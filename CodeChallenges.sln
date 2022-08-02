@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BowlingScoreCard", "Bowling
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptimizingBoxWeights", "OptimizingBoxWeights\OptimizingBoxWeights.csproj", "{9EB98165-5486-49EB-BBF4-20055DDD4C35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryStringSwapPalindrome", "BinaryStringSwapPalindrome\BinaryStringSwapPalindrome.csproj", "{AE1C9FC4-689D-4AED-968B-BD008DD8AB49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinaryStringSwapPalindrome", "BinaryStringSwapPalindrome\BinaryStringSwapPalindrome.csproj", "{AE1C9FC4-689D-4AED-968B-BD008DD8AB49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomStackQueue", "CustomStackQueue\CustomStackQueue.csproj", "{8A68D5B2-1093-4C31-9E66-27CFFDB1A2A0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomBinaryTree", "CustomBinaryTree\CustomBinaryTree.csproj", "{F244E819-DEAF-4B36-9C72-4CA154CB3A64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{AE1C9FC4-689D-4AED-968B-BD008DD8AB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE1C9FC4-689D-4AED-968B-BD008DD8AB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE1C9FC4-689D-4AED-968B-BD008DD8AB49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A68D5B2-1093-4C31-9E66-27CFFDB1A2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A68D5B2-1093-4C31-9E66-27CFFDB1A2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A68D5B2-1093-4C31-9E66-27CFFDB1A2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A68D5B2-1093-4C31-9E66-27CFFDB1A2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F244E819-DEAF-4B36-9C72-4CA154CB3A64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F244E819-DEAF-4B36-9C72-4CA154CB3A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F244E819-DEAF-4B36-9C72-4CA154CB3A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F244E819-DEAF-4B36-9C72-4CA154CB3A64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
