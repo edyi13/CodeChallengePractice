@@ -39,9 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PalindromeLinkedList", "Pal
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StringHaveSameLetters", "StringHaveSameLetters\StringHaveSameLetters.csproj", "{B5A7F9BF-1C13-44E1-B5F4-D6B0FB696F0F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlgorithms", "CustomBubbleSort\SortAlgorithms.csproj", "{57AC942C-E0AE-45BA-AC05-C70C8C8EFDED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SortAlgorithms", "CustomBubbleSort\SortAlgorithms.csproj", "{57AC942C-E0AE-45BA-AC05-C70C8C8EFDED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinMaxSum", "MinMaxSum\MinMaxSum.csproj", "{5378ED02-43AD-4187-93AF-DE937A6BEE3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinMaxSum", "MinMaxSum\MinMaxSum.csproj", "{5378ED02-43AD-4187-93AF-DE937A6BEE3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAlgorithms", "SearchAlgorithms\SearchAlgorithms.csproj", "{D716D67C-F5C9-4099-AB15-F2E93DB17498}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{5378ED02-43AD-4187-93AF-DE937A6BEE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5378ED02-43AD-4187-93AF-DE937A6BEE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5378ED02-43AD-4187-93AF-DE937A6BEE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D716D67C-F5C9-4099-AB15-F2E93DB17498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D716D67C-F5C9-4099-AB15-F2E93DB17498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D716D67C-F5C9-4099-AB15-F2E93DB17498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D716D67C-F5C9-4099-AB15-F2E93DB17498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
