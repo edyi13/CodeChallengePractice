@@ -45,11 +45,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinMaxSum", "MinMaxSum\MinM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAlgorithms", "SearchAlgorithms\SearchAlgorithms.csproj", "{D716D67C-F5C9-4099-AB15-F2E93DB17498}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveElemenIntArray", "RemoveElemenIntArray\RemoveElemenIntArray.csproj", "{0A065B7D-42ED-4513-8D82-4249F4B55494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveElemenIntArray", "RemoveElemenIntArray\RemoveElemenIntArray.csproj", "{0A065B7D-42ED-4513-8D82-4249F4B55494}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSortedIntArray", "MergeSortedIntArray\MergeSortedIntArray.csproj", "{A72A811A-77CE-42C6-AC5A-D3D2742336CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSortedIntArray", "MergeSortedIntArray\MergeSortedIntArray.csproj", "{A72A811A-77CE-42C6-AC5A-D3D2742336CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesSortedIntArray", "RemoveDuplicatesSortedIntArray\RemoveDuplicatesSortedIntArray.csproj", "{A0ACA314-924F-4831-9DC9-03AD0B7ED6F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemoveDuplicatesSortedIntArray", "RemoveDuplicatesSortedIntArray\RemoveDuplicatesSortedIntArray.csproj", "{A0ACA314-924F-4831-9DC9-03AD0B7ED6F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MajorityElement", "MajorityElement\MajorityElement.csproj", "{F1477523-0232-47BE-A7C2-706A3FED4A09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RotateArrayFromPosition", "RotateArrayFromPosition\RotateArrayFromPosition.csproj", "{70FCE61F-E227-47FE-8970-281A9DC51FED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestTimeToBuySellStock", "BestTimeToBuySellStock\BestTimeToBuySellStock.csproj", "{B28B8D52-BD88-4D5C-990F-A42E6872C918}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BestToTimeBuySellStock2", "BestToTimeBuySellStock2\BestToTimeBuySellStock2.csproj", "{C6BD4C53-0133-46B5-BC25-65167BCC8679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinderQu", "WordFinderQu\WordFinderQu.csproj", "{6C1F83BE-922F-4EB2-B63D-41098294EA90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -153,6 +163,26 @@ Global
 		{A0ACA314-924F-4831-9DC9-03AD0B7ED6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0ACA314-924F-4831-9DC9-03AD0B7ED6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0ACA314-924F-4831-9DC9-03AD0B7ED6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1477523-0232-47BE-A7C2-706A3FED4A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1477523-0232-47BE-A7C2-706A3FED4A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1477523-0232-47BE-A7C2-706A3FED4A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1477523-0232-47BE-A7C2-706A3FED4A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70FCE61F-E227-47FE-8970-281A9DC51FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70FCE61F-E227-47FE-8970-281A9DC51FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70FCE61F-E227-47FE-8970-281A9DC51FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70FCE61F-E227-47FE-8970-281A9DC51FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28B8D52-BD88-4D5C-990F-A42E6872C918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28B8D52-BD88-4D5C-990F-A42E6872C918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28B8D52-BD88-4D5C-990F-A42E6872C918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28B8D52-BD88-4D5C-990F-A42E6872C918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6BD4C53-0133-46B5-BC25-65167BCC8679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6BD4C53-0133-46B5-BC25-65167BCC8679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6BD4C53-0133-46B5-BC25-65167BCC8679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6BD4C53-0133-46B5-BC25-65167BCC8679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1F83BE-922F-4EB2-B63D-41098294EA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1F83BE-922F-4EB2-B63D-41098294EA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1F83BE-922F-4EB2-B63D-41098294EA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1F83BE-922F-4EB2-B63D-41098294EA90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
